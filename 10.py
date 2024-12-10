@@ -39,8 +39,6 @@ def count_trails(map, start_pos):
                 continue
             if map[new_pos] != map[cur_pos[0], cur_pos[1]] + 1:
                 continue
-            if map[new_pos] == 0:
-                continue
 
             queue.append(new_pos)
 
